@@ -26,21 +26,24 @@ This project is built with the following technologies:
 ## Project Structure
 
 ```
-chat-status-app/
-├── public/               # Static assets
-├── src/
-│   ├── assets/           # Images and other assets
-│   ├── components/       # UI components
-│   │   └── ui/           # shadcn/ui components
-│   ├── hooks/            # Custom React hooks
-│   ├── lib/              # Utility functions
-│   ├── App.css           # Main application styles
-│   ├── App.tsx           # Main application component
-│   ├── index.css         # Global styles
-│   └── main.tsx          # Entry point
-├── vite.config.ts        # Vite configuration
-├── tsconfig.json         # TypeScript configuration
-└── package.json          # Project dependencies
+chat-app/
+├── public/               # Static assets (images, favicon, etc.)
+├── src/                  # Source code directory
+│   ├── assets/           # Images, icons, and other static resources
+│   ├── components/       # Reusable UI components
+│   │   └── ui/           # shadcn/ui components (pre-styled components)
+│   ├── hooks/            # Custom React hooks for shared logic
+│   ├── lib/              # Utility functions and helper methods
+│   ├── App.css           # Main application styles specific to App component
+│   ├── App.tsx           # Main application component that renders the chat interface
+│   ├── index.css         # Global styles applied to the entire application
+│   └── main.tsx          # Entry point that renders the App component to the DOM
+├── vite.config.ts        # Vite configuration for build and development settings
+├── tsconfig.json         # TypeScript configuration for type checking
+├── package.json          # Project dependencies and scripts
+├── index.html            # HTML entry point for the application
+├── pnpm-lock.yaml        # Lock file for pnpm dependencies (ensures consistent installs)
+└── tsconfig.app.json     # Additional TypeScript configuration specific to the app   
 ```
 
 ## How It Works
@@ -165,8 +168,8 @@ The recording indicator uses a pulsing animation:
 
 1. Clone the repository:
 ```
-git clone https://github.com/smokemoha/
-cd 
+git clone https://github.com/smokemoha/chat-app
+cd chat-app
 ```
 2. Install dependencies:
    ```
