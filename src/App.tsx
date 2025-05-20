@@ -129,7 +129,7 @@ function App() {
           <div className="contact-avatar">
             <span>👤</span>
           </div>
-          <div className="contact-name">Contact</div>
+          <div className="contact-name">Sadisu</div>
         </div>
       </header>
       

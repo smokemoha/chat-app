@@ -2,7 +2,9 @@
 
 A real-time chat application that demonstrates typing and voice recording status indicators similar to WhatsApp and Telegram. This project showcases how these interactive status features work in modern messaging applications.
 
-![Chat Status App Screenshot](/home/ubuntu/screenshots/5173-i6jiawbb9c0zkj3_2025-05-19_04-18-39_2890.webp)
+![Chat Status App Screenshot](./screenshots/chat-app-screenshot.png)
+[Chat Status App Screenshot](./screenshots/chat-app-screenshot.png1)
+[Chat Status App Screenshot](./screenshots/chat-app-screenshot.png2)
 
 ## Tech Stack
 
